@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+
+  <body>
+    <div class="rectangle">
+      <input readonly class="input" id="input" value="0" />
+
+      <div class="keys">
+        <div class="row">
+          <button class="btn" style="visibility: hidden"></button>
+          <button class="btn" style="visibility: hidden"></button>
+          <button class="btn" id="ac">AC</button>
+          <button class="btn" id="c">C</button>
+        </div>
+
+        <div class="row">
+          <button class="btn" id="seven">7</button>
+          <button class="btn" id="eight">8</button>
+          <button class="btn" id="nine">9</button>
+          <button class="btn" id="minus">-</button>
+        </div>
+
+        <div class="row">
+          <button class="btn" id="four">4</button>
+          <button class="btn" id="five">5</button>
+          <button class="btn" id="six">6</button>
+          <button class="btn" id="sum">+</button>
+        </div>
+
+        <div class="row">
+          <button class="btn" id="one">1</button>
+          <button class="btn" id="two">2</button>
+          <button class="btn" id="three">3</button>
+          <button class="btn" id="multiply">*</button>
+        </div>
+
+        <div class="row">
+          <button class="btn" id="dot">.</button>
+          <button class="btn" id="zero">0</button>
+          <button class="btn" id="equal">=</button>
+          <button class="btn" id="divide">/</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
